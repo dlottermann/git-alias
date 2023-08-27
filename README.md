@@ -30,4 +30,4 @@ THen you can run
 
 Enjoy!
 
-<div style="text-align:center"><img src="image.png" alt="github" width="32"/> </div>
+<div style="text-align:center"><img src="github-octocat-logo-svg-vector.svg" alt="octacat" width="54"/> </div>
