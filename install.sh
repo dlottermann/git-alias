@@ -18,7 +18,7 @@ rr='rr=!git fetch origin && git reset --hard @{u}'
 pub='!git push -u origin'
 clean='!git branch -d'
 kill='!git push origin --delete'
-flush='!git add . && git commit -m "$@" && git push'
+flush="!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 
 echo $alias >>~/.gitconfig
 
@@ -27,6 +27,7 @@ echo $find >>~/.gitconfig
 echo $st >>~/.gitconfig
 echo $lg >>~/.gitconfig
 echo $rr >>~/.gitconfig
-echo $pub >>^/.gitconfig
-echo $clean >>^/.gitconfig
-echo $kill >>^/.gitconfig
+echo $pub >>~/.gitconfig
+echo $clean >>~/.gitconfig
+echo $kill >>~/.gitconfig
+echo $flush >>~/.gitconfig
