@@ -1,4 +1,6 @@
-# git-alias
+# git-alias <img src="git-logo.svg" alt="github" width="48"/>
+
+[![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
 
 ### Git Config
 
@@ -25,3 +27,7 @@ THen you can run
 ```
 ./install.sh
 ```
+
+Enjoy!
+
+<div style="text-align:center"><img src="image.png" alt="github" width="32"/> </div>
