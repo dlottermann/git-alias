@@ -8,11 +8,15 @@ This repository has a objective to keep on a unified place where will be add git
 
 Clone repository
 
-` git clone git@github.com:dlottermann/git-alias.git`
+```
+git clone git@github.com:dlottermann/git-alias.git
+```
 
 Execute permission to file install.sh
 
-`sudo chmod +x install.sh`
+```
+sudo chmod +x install.sh
+```
 
 Change user and email on source code to your user and your email 🧐
 
