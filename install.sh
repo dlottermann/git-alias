@@ -4,7 +4,7 @@ git config --global core.editor "code -w"
 
 git config --global user.name "dlottermann"
 git config --global user.email "diegolottermann@gmail.com"
-git config --global init.defaultBranch master
+git config --global init.defaultBranch main
 
 #git config --global -e
 
@@ -18,6 +18,7 @@ rr='rr=!git fetch origin && git reset --hard @{u}'
 pub='!git push -u origin'
 clean='!git branch -d'
 kill='!git push origin --delete'
+flush='!git add . && git commit -m "$@" && git push'
 
 echo $alias >>~/.gitconfig
 
