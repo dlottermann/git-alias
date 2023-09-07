@@ -15,7 +15,7 @@ find="find=!git branch -r | grep"
 st='st=status -sb'
 lg="lg=log --pretty='%C(yellow)%h%Creset %Cblue%an%Creset %Cgreen%cr%Creset%Cred%d%Creset %s'"
 rr='rr=!git fetch origin && git reset --hard @{u}'
-pub='pub=!git push -u origin'
+pub='pub=!git push -u origin && git rev-parse --abbrev-ref HEAD'
 clean='clean=!git branch -d'
 kill='kill=!git push origin --delete'
 flush='flush="!f() { git add -A && git commit -m \"$@\" && git push; }; f"'
